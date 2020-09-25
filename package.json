@@ -1,0 +1,12 @@
+{
+  "name": "counter-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'Chrome'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
